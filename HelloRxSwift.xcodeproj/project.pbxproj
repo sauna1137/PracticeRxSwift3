@@ -28,6 +28,7 @@
 		8A3946892782E98700AF1D33 /* Observal.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observal.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A39468A2783190C00AF1D33 /* PublishSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PublishSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A39468C27831BC100AF1D33 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8A5578C627832C20000BECAC /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A8C2B63A2F18DCEAF3FAD3BF /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CE35A82B9F09A465707AFA9C /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4EEA4809B907BB9E286C4E /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		8A39468B27831B0200AF1D33 /* Subject */ = {
 			isa = PBXGroup;
 			children = (
+				8A5578C627832C20000BECAC /* ReplaySubject.playground */,
 				8A39468A2783190C00AF1D33 /* PublishSubject.playground */,
 				8A39468C27831BC100AF1D33 /* BehaviorSubject.playground */,
 			);

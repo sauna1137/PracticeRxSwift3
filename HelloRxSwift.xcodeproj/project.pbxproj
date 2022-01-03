@@ -13,6 +13,7 @@
 		8A39467D2782E55F00AF1D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A39467B2782E55F00AF1D33 /* Main.storyboard */; };
 		8A39467F2782E56000AF1D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A39467E2782E56000AF1D33 /* Assets.xcassets */; };
 		8A3946822782E56000AF1D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3946802782E56000AF1D33 /* LaunchScreen.storyboard */; };
+		AE7D6BF94F4EAA75AC3329B8 /* Pods_HelloRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE35A82B9F09A465707AFA9C /* Pods_HelloRxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,10 @@
 		8A39467E2782E56000AF1D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3946812782E56000AF1D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A3946832782E56000AF1D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3946892782E98700AF1D33 /* RxSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A8C2B63A2F18DCEAF3FAD3BF /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CE35A82B9F09A465707AFA9C /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4EEA4809B907BB9E286C4E /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7D6BF94F4EAA75AC3329B8 /* Pods_HelloRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0D96093C506CC24996BE18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE35A82B9F09A465707AFA9C /* Pods_HelloRxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75C2089CA1A3ACC6361E63BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2B63A2F18DCEAF3FAD3BF /* Pods-HelloRxSwift.debug.xcconfig */,
+				DA4EEA4809B907BB9E286C4E /* Pods-HelloRxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8A3946692782E55F00AF1D33 = {
 			isa = PBXGroup;
 			children = (
 				8A3946742782E55F00AF1D33 /* HelloRxSwift */,
 				8A3946732782E55F00AF1D33 /* Products */,
+				75C2089CA1A3ACC6361E63BA /* Pods */,
+				2E0D96093C506CC24996BE18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +81,7 @@
 		8A3946742782E55F00AF1D33 /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8A3946892782E98700AF1D33 /* RxSwift.playground */,
 				8A3946752782E55F00AF1D33 /* AppDelegate.swift */,
 				8A3946772782E55F00AF1D33 /* SceneDelegate.swift */,
 				8A3946792782E55F00AF1D33 /* ViewController.swift */,
@@ -74,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A3946862782E56000AF1D33 /* Build configuration list for PBXNativeTarget "HelloRxSwift" */;
 			buildPhases = (
+				553B2DB60A26D1DF558B07DD /* [CP] Check Pods Manifest.lock */,
 				8A39466E2782E55F00AF1D33 /* Sources */,
 				8A39466F2782E55F00AF1D33 /* Frameworks */,
 				8A3946702782E55F00AF1D33 /* Resources */,
+				940FB517619C79D2F0D32DD8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +160,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		553B2DB60A26D1DF558B07DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		940FB517619C79D2F0D32DD8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8A39466E2782E55F00AF1D33 /* Sources */ = {
@@ -284,6 +354,7 @@
 		};
 		8A3946872782E56000AF1D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C2B63A2F18DCEAF3FAD3BF /* Pods-HelloRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,12 +376,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8A3946882782E56000AF1D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA4EEA4809B907BB9E286C4E /* Pods-HelloRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,7 +404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

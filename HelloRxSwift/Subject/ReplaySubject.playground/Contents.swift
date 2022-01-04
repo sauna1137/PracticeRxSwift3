@@ -29,7 +29,7 @@ print("subject2")
 subject.subscribe {
     print($0)
 }
-// 結果　サブスクライブしてからのsubjectから最後の2つの処理が実行される
+// 結果　サブスクライブしてからのsubjectから最後の2つの処理が実行され
 //　subject2
 //　next(issue 5)
 //　next(issue 6)

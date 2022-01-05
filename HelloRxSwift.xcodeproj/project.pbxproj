@@ -30,6 +30,7 @@
 		8A39468C27831BC100AF1D33 /* BehaviorSubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorSubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A5578C627832C20000BECAC /* ReplaySubject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReplaySubject.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8A5578C727832FA7000BECAC /* BehaviorRelay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BehaviorRelay.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8A5578EF27851FE2000BECAC /* filteringOperator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = filteringOperator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A8C2B63A2F18DCEAF3FAD3BF /* Pods-HelloRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		CE35A82B9F09A465707AFA9C /* Pods_HelloRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4EEA4809B907BB9E286C4E /* Pods-HelloRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloRxSwift.release.xcconfig"; path = "Target Support Files/Pods-HelloRxSwift/Pods-HelloRxSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -85,8 +86,7 @@
 		8A3946742782E55F00AF1D33 /* HelloRxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8A39468B27831B0200AF1D33 /* Subject */,
-				8A3946892782E98700AF1D33 /* Observal.playground */,
+				8A5578EE27851FAD000BECAC /* Playground */,
 				8A3946752782E55F00AF1D33 /* AppDelegate.swift */,
 				8A3946772782E55F00AF1D33 /* SceneDelegate.swift */,
 				8A3946792782E55F00AF1D33 /* ViewController.swift */,
@@ -107,6 +107,16 @@
 				8A5578C727832FA7000BECAC /* BehaviorRelay.playground */,
 			);
 			path = Subject;
+			sourceTree = "<group>";
+		};
+		8A5578EE27851FAD000BECAC /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				8A3946892782E98700AF1D33 /* Observal.playground */,
+				8A39468B27831B0200AF1D33 /* Subject */,
+				8A5578EF27851FE2000BECAC /* filteringOperator.playground */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

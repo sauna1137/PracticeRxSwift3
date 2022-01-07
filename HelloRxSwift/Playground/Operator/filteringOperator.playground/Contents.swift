@@ -34,7 +34,7 @@ strikes2.element(at: 2)
 
 strikes2.onNext("x")
 strikes2.onNext("y")
-strikes2.onNext("z")  // You are out
+strikes2.onNext("z")  // You are out　ここで呼ばれる
 
 
 
